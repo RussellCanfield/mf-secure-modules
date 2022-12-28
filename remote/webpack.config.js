@@ -60,8 +60,8 @@ module.exports = {
   },
 
   plugins: [
-    // new FederatedTypesPlugin({ federationConfig }),
-    new ModuleFederationPlugin(federationConfig),
+    new FederatedTypesPlugin({ federationConfig }),
+    // new ModuleFederationPlugin(federationConfig),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
     }),
