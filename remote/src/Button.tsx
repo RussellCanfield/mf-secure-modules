@@ -1,8 +1,9 @@
 import React from "react";
+
 type ButtonProps = {
-  label: string;
+	label: string;
 };
 
 export default function Button({ label }: ButtonProps) {
-  return <button>{label}</button>;
+	return <button>{label}</button>;
 }
